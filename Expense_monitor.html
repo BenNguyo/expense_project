@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <style></style>
+
+   
+</head>
+
+<body>
+<!-- new expense   -->
+<!--onsubmit= " return make_json(this)"-->
+   <form  onsubmit = " return make_json(this)" >
+Expense type:
+<select name = "expense_type">
+<option  value = "car_service"/>Car</option>
+<option  value = "fuel">Fuel </option>
+<option  value = "siz"/>Siz</option>
+<option  value = "fun"/>Fun</option>
+<option  value = "investment"/>Investment </option>
+<option  value = "health"/>Health </option>
+<option  value = "other"/>Other</option>
+</select>
+<br><br>
+Amount:
+<input type = "number" name = "amount" /><br>
+<br>
+Reason:
+<input type = "text" name = "note"  /><br>
+<br>
+Date :
+<input type = "date" name = "date"  /><br><br>
+<input type = "submit"  value = "Create expense"  /><br>
+
+</form>
+<!-- <form>
+<br><br><br><br>
+<option id = "m" name = "owe" value = "loan"/>Lo
+<option id = "m" name = "owe" value = "debt"/>Debt<br><br>
+From / To   :
+<input type = "text" id = "" name = "" value = ""/><br><br>
+Amount:
+<input type = "number" id = "" name = "" value = ""/><br><br>
+Date :
+<input type = "date" name = "date" id = "w" /><br><br>
+<input type = "submit" id = "" name = "" value = "Create"/><br>
+</form> -->
+<div id = "output"></div>
+<div id  = "new_output"></div>
+
+ <script src = "expense.js"></script>
+</body>
+
+</html>   
+
